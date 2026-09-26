@@ -1,7 +1,7 @@
 from sqlalchemy.orm import Session
 
 from biblioteca_api.models import Livro
-from schemas import LivroCreate
+from biblioteca_api.schemas import LivroCreate
 
 
 def criar_livro(db: Session, dados: LivroCreate):
