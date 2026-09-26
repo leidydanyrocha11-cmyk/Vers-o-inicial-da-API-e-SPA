@@ -1,0 +1,7 @@
+.venv/
+__pycache__/
+*.pyc
+biblioteca.db
+node_modules/
+dist/
+.env
