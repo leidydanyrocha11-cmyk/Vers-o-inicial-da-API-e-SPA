@@ -4,7 +4,7 @@ from sqlalchemy.orm import Session
 
 from biblioteca_api.database import Base, engine, get_db
 from .schemas import LivroCreate, LivroResponse
-import services
+from . import services
 
 
 Base.metadata.create_all(bind=engine)
