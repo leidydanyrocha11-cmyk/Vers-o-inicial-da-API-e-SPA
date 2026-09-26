@@ -2,7 +2,7 @@ from fastapi import Depends, FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from sqlalchemy.orm import Session
 
-from database import Base, engine, get_db
+from biblioteca_api.database import Base, engine, get_db
 from schemas import LivroCreate, LivroResponse
 import services
 
